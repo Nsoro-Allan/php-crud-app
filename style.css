@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    padding: 15px;
+    background: black;
+    color: #fff;
+    text-align: center;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+  td a{
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50px;
+    width: 30%;
+    border: 1.5px solid black;
+    transition: all ease-in-out 0.4s;
+}
+
+   td a:hover{
+    background: transparent;
+    color: black;
+    transition: all ease-in-out 0.4s;
+}
+
+
+  .main-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 80%;
+    transform: translate(-50%,-45%);
+}
+
+.button{
+    margin-top: 50px;
+    text-align: center;
+}
+
+.button a{
+    text-decoration: none;
+    background: black;
+    color: #fff;
+    padding: 15px;
+    border-radius: 50px;
+    width: 40%;
+    border: 1.5px solid black;
+    transition: all ease-in-out 0.4s;
+}
+
+.button a:hover{
+    background: transparent;
+    color: black;
+    transition: all ease-in-out 0.4s;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+form .form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+form .form label{
+    margin-top: 5px;
+}
+
+form .form input{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
+form .form select{
+    padding: 10px;
+    border-radius: 50px;
+    border: 2px solid black;
+}
+
+form .form button{
+    background: black;
+    color: #fff;
+    border: 2px solid black;
+    padding: 12px;
+    border-radius: 50px;
+    margin-top: 10px; 
+    font-weight: bold;
+    transition: all ease-in-out 0.4s;
+}
+
+form .form button:hover{
+    background: transparent;
+    color: black;
+    cursor: pointer;
+    transition: all ease-in-out 0.4s;
+}
+
+::placeholder{
+    color: black;
+}
+
+.line{
+    margin-top: 10px;
+    padding: 4px;
+    background: black;
+    border-radius: 50px;
+    width: 10%;
+}
+
+
