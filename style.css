@@ -35,21 +35,9 @@ table {
   }
 
   td a{
-    text-decoration: none;
-    background: black;
-    color: #fff;
-    padding: 10px;
-    border-radius: 50px;
-    width: 30%;
-    border: 1.5px solid black;
-    transition: all ease-in-out 0.4s;
+    color: black;
 }
 
-   td a:hover{
-    background: transparent;
-    color: black;
-    transition: all ease-in-out 0.4s;
-}
 
 
   .main-container{
