@@ -39,6 +39,7 @@ if(isset($_POST['submit'])){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Crud App</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./icon_64.png" type="image/x-icon">
 </head>
 <body>
 
